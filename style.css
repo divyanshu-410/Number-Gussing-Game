@@ -1,0 +1,72 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #282c34;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.game-container {
+    background-color: #3c4049;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    filter:drop-shadow(0 15px 50px #000);
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+input[type="number"] {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    width: 80%;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+#start-button, #guess-button {
+    background-color: #61dafb;
+    color: #282c34;
+}
+
+#start-button:hover, #guess-button:hover {
+    background-color: #4fa8c7;
+}
+
+#quit-button {
+    background-color: #ff6b6b;
+    color: #fff;
+}
+
+#quit-button:hover {
+    background-color: #e55a5a;
+}
+
+#message {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: #61dafb;
+}
